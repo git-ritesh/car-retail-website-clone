@@ -4,11 +4,18 @@
 
 body {
   margin: 0;
-  margin-bottom: 4000px;
+  /* margin-bottom: 4000px; */
 }
 
 .bg-container {
   background-image: url(images/car.png);
+}
+
+footer {
+  background-image: url(images/seats.png);
+}
+
+.bg-container, footer {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
