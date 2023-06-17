@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 4000px;
+}
+
+.bg-container {
+  background-image: url(images/car.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
