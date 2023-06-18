@@ -9,6 +9,13 @@ body {
 
 .bg-container {
   background-image: url(images/car.png);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-top: 50px;
 }
 
 footer {
@@ -20,3 +27,31 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+svg {
+  vertical-align: middle;
+}
+
+.logo-container {
+  font-family: "Open Sans", Arial;
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img img {
+  width: 50px;
+}
+
+.logo-txt {
+  width: 50px;
+}
+
+
