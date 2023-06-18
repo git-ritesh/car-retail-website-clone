@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: OpenSauceSans-Regular;
+  src: url(Fonts/OpenSauceSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSauceSans-Bold ;
+  src: url(Fonts/OpenSauceSans-Bold.ttf);
+}
+
 body {
   margin: 0;
   /* margin-bottom: 4000px; */
@@ -14,8 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 100px;
-  padding-top: 50px;
+  padding: 80px 100px;
 }
 
 footer {
@@ -29,6 +37,7 @@ footer {
 }
 
 svg {
+  margin-left: 30px;
   vertical-align: middle;
 }
 
@@ -54,4 +63,35 @@ svg {
   width: 50px;
 }
 
+.slogan-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slogan {
+  font-size: 150px;
+  font-family: 'Barlow Condensed', sans-serif; 
+  line-height: 0.92;
+  letter-spacing: 2.5px;
+}
+
+.slogan span {
+  color: #ff4c4c;
+  display: block;
+}
+
+.slogan-btn-container button {
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  font-family: "OpenSauceSans-Bold";
+  letter-spacing: 1px;
+  padding: 12px 40px 10px 50px;
+  border-radius: 50px;
+
+  background-color: #ff4c4c;
+  border: none;
+  align-self: flex-end;
+}
 
